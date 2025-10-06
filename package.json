@@ -1,8 +1,15 @@
 {
   "name": "tiny-server",
   "version": "1.0.0",
-  "main": "api/hello.js",
   "scripts": {
-    "start": "node api/hello.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
+
